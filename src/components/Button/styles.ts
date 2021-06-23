@@ -2,7 +2,6 @@ import styled from "styled-components";
 import {Colors} from "../../resources";
 
 const Btn = styled.button`
-  margin-top: 25px;
   height: 50px;
   border-radius: 8px;
   font-weight: 500;
