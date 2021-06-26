@@ -22,6 +22,12 @@ const Btn = styled.button`
     margin-right: 8px;
   }
   
+  &.outlined{
+    background: #fff;
+    border: 1px solid ${Colors.purple};
+    color: ${Colors.purple};
+  }
+  
   &:not(:disabled):hover{
     filter: brightness(0.9);
   }

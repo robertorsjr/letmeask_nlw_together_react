@@ -18,20 +18,32 @@ const Content = styled.div`
   > img{
     max-height: 45px;
   }
+  
+  >div{
+    display: flex;
+    gap: 16px;
+    
+    >button{
+      height: 40px;
+    }
+  }
+  
 `;
+
+const CodeRoom = styled.div``;
 
 const Main = styled.main`
 
   max-width: 800px;
   margin: 0 auto;
-  
+
 `;
 
 const RoomTitle = styled.div`
   margin: 32px 0 24px;
   display: flex;
   align-items: center;
-  
+
   h1{
     font-family:  'Poppins', sans-serif;
     font-size: 24px;
@@ -71,7 +83,7 @@ const FormFooter = styled.div`
     font-size: 14px;
     color: ${Colors.gray.dark};
     font-weight: 500;
-    
+
     button{
       background: transparent;
       border: 0;
@@ -87,13 +99,13 @@ const FormFooter = styled.div`
 const UserInfo = styled.div`
   display: flex;
   align-items: center;
-  
+
   img{
     width: 32px;
     height: 32px;
     border-radius: 50%;
   }
-  
+
   > span{
     margin-left: 8px;
     color: ${Colors.black};
@@ -103,12 +115,13 @@ const UserInfo = styled.div`
 `;
 
 export {
-    Container,
-    Header,
-    UserInfo,
-    Content,
-    Main,
-    RoomTitle,
-    Form,
-    FormFooter
+  Container,
+  Header,
+  UserInfo,
+  Content,
+  CodeRoom,
+  Main,
+  RoomTitle,
+  Form,
+  FormFooter
 }
